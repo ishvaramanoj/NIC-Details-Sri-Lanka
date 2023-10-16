@@ -19,10 +19,10 @@ export  function National(){
 
 const [inputText, setInputText] = useState("");
 
-const handleChange = (e) => {
-      
-      setInputText(e.target.value);
-    };
+
+const handleChange = (e) => {     
+setInputText(e.target.value);
+};
 
 
 const Submit =()=>{
@@ -33,7 +33,6 @@ console.log(DisplayData);
 
 document.getElementById('dateview').innerHTML=DisplayData.dateOfBirth;
 document.getElementById('genderview').innerHTML=DisplayData.gender;
-
 }
 
 const Clear=()=>{
@@ -61,30 +60,28 @@ return(
 
 
 
-    <Button id='btnsubmit' variant="contained" endIcon={<SendIcon />} onClick={()=>{Submit()}}>
-        SUMBIT
-      </Button><br></br>
+<Button id='btnsubmit' variant="contained" endIcon={<SendIcon />} onClick={()=>{Submit()}}>
+SUMBIT
+</Button><br></br>
 
 <div className="displayArea">
       <label id='nicdate'>D.O.B</label> <CalendarMonthIcon/>
       <div id="dateview"> Displays the D.O.B</div>
-      </div>
+</div>
 
 <div className="genderviewer">
 <label id='nicdate'>GENDER </label><WcIcon/>
-      <div id="genderview">Displays the Gender</div>
-
+<div id="genderview">Displays the Gender</div>
 </div>
 
 <Button id='btnclear' variant="contained" endIcon={<CleaningServicesIcon />} onClick={()=>{Clear()}}>
         CLEAR
-      </Button><br></br>
+</Button><br></br>
 
-    <div className="copyright">
+<div className="copyright">
+<CopyrightIcon/><div className="txt">2023 Manoj Vitharana</div>
+</div>
 
-      <CopyrightIcon/><div className="txt">2023 Manoj Vitharana</div>
-
-      </div>
 </div>
 
 </>
