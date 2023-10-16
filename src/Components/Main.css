@@ -1,0 +1,79 @@
+.main{
+    background-image: linear-gradient(to bottom right, #123456, #22CE83);
+    width: 500px;
+    margin-left: 530px;
+    text-align: center;
+    height: 420px;
+    margin-top: 120px;
+    border-radius: 10px;
+    box-shadow: 2px 2px silver;
+    color: whitesmoke;
+    
+}
+#nic{
+    height: 30px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 15px;
+    width: 200px;
+}
+#btnsubmit{
+    margin-top: 30px;
+    width: 120px;
+    height: 35px;
+    background-color:#829F82 ; 
+}
+#btnclear{
+    background-color:#C24641; 
+margin-top: 30px; 
+margin-left: 270px;
+font-size: 15px;
+}
+
+
+
+#dateview{
+    background-color: #F5E216;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    color: #0020C2;
+    font-size: 17px;
+}
+
+.displayArea{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    
+}
+.genderviewer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+#dateview{
+    margin-left: 30px;
+}
+#genderview{
+    background-color: #F5E216;
+    width: 150px; 
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #0020C2;
+    width: 250px;
+
+}
+#nicdate{
+   margin-top: 4px;   
+}
+.copyright{
+    display: flex;
+    margin-left: 150px;
+    
+}
+.txt{
+    margin-top: 3px;
+}
