@@ -66,7 +66,7 @@ return(
       </Button><br></br>
 
 <div className="displayArea">
-      <label id='nicdate'>DATE</label> <CalendarMonthIcon/>
+      <label id='nicdate'>BIRTHDAY</label> <CalendarMonthIcon/>
       <div id="dateview"> Displays the D.O.B</div>
       </div>
 
